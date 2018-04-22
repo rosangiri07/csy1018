@@ -1,0 +1,306 @@
+body{margin: 0 auto;
+	padding: 0;
+	font-size: 20px;
+	font-family: sans-serif;
+	background-color:#f9ebeb;
+}
+h2{
+	text-shadow: 2px 2px  red;
+}
+
+.header2{
+	font-size: 20px;
+	text-align:left ;
+	margin: 2%;
+}
+.paragraph{
+	font-size: 15px;
+	margin: 2%;
+
+}
+.p{
+	font-size: 10px;
+}
+.image{
+	display:block;
+	width: 48%;
+	padding:1%;
+
+	
+}
+.Logo{
+	padding-left: -10px;
+	padding-top:-10px;
+	display: block;
+}
+
+.image img{
+	display: block;
+	width: 96%;
+	padding: 1%;
+	border-radius: 15px 50px;
+	display: flex;
+	
+}
+
+header{
+	background-color:#dbf2f2;
+	text-align:;
+	box-shadow: 0px 3px 6px grey;
+	
+	
+}
+
+ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 0.5%;
+	padding: 1%;
+
+
+	
+}
+li{
+	
+	list-style:none;
+	margin: 1%;
+	padding:1%;
+	
+
+}
+li>a:hover{background:#f9ebeb;color:red; }
+
+
+
+
+a{
+	text-decoration: none;
+	color: black;
+	display: block;
+	width: 100%;
+
+
+}
+	
+
+section{
+	      background-color:#dadee0;
+	      display:flex;
+	     padding: 1%;
+	   }
+
+.social{
+	display:block;
+  padding: 20px;
+  box-shadow: 0 0 50px rgba(72,98,85, 0.6);
+  box-sizing:border-box;
+  
+
+	
+}
+
+
+
+
+.block{
+	width:50%;
+	background-color:;
+	
+
+}
+.block img{
+	width:92% ;
+	border-radius: 15px 50px 30px;
+	box-shadow:0px 3px 8px grey;
+	padding:1%;
+	}
+	
+	
+	
+	.block h4{
+	font-size: 22px;margin: 2% 0;padding: 0;
+}
+.Container{
+  width:98%;
+  height:98%;
+  box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+  box-sizing: border-box;
+  padding: 40px;
+}
+.Container1{
+	width: 98%;
+	height: 98%;
+	box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+  box-sizing: border-box;
+  padding: 40px;
+  margin-left: 15px;
+  margin-top: 5px;
+
+}
+.input,
+.msg .area{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+
+.Login .input{
+  width: 48%;
+  margin-right: 4%;
+}
+
+.Login .input:last-child{
+  margin-right: 0;
+}
+
+.Message .area{
+  height:100px;
+}
+
+.btn{
+  width: 100px;
+  background:grey;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.input:focus,
+.Message .area:focus{
+  border: 2px solid #486255;
+}
+
+.location{
+	display: block;
+	width: 98%;
+	height: 98%;
+	margin-top:5px;
+	margin-left: 15px;
+	box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+  box-sizing: border-box;
+  padding-left:40px;
+  cursor: pointer;
+
+
+}
+.About{
+	display: flex;
+	width: 98%;
+	height: 98%;
+	margin-top:5px;
+	box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+  box-sizing: border-box;
+  padding:40px;
+  
+}
+.Resume{
+
+    	width: 98%;
+	height: 98%;
+	margin: 5px;
+	margin-bottom: 5px;
+	box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+  box-sizing: border-box;
+  padding:40px;
+
+}
+
+.Resume1{
+	border:1px solid black;
+	margin-right: -40px;
+	height: 88%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+  box-sizing: border-box;
+  padding:40px;
+
+}
+.Resume2{
+	border:1px solid black;
+		height: 88%;
+		margin-right: -40px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+  box-sizing: border-box;
+  padding:40px;
+
+}
+.Cv{
+	display:block;
+		padding:1%;
+		border-radius: 15px 15px 20px;
+	box-shadow:0px 3px 8px grey;
+}
+
+
+@media screen and (max-width: 500px){
+	ul { display: flex;
+		flex-direction: column;
+	}
+	li {width:100%;
+		margin:1%;
+		margin-top: 3%;
+		padding: 5%;
+	}
+	section {flex-direction: row;}
+	#table,
+	#table tr,
+	#table td{
+		display: block;
+	}
+	#Headrow{
+		position:absolute;
+		left: -1500px;
+		top:-1500px;
+	}
+	#table td{
+		border:none;
+		position: relative;
+		padding-left: 40%;
+		white-space: normal;
+		text-align: left;
+}
+#table td:before{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 40%;
+	white-space:nowrap;
+	text-align: left;
+	font-weight: bold;
+	content: attr(tableHeadData);
+}
+
+ }
+.Contents{
+	display: block;
+	margin-top:5px;
+	margin-left: 15px;
+	box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+  box-sizing: border-box;
+  padding-left:40px;
+  background: grey;
+}
+.Report{
+	background: white;
+}
+
+
+footer{
+	background-color:#dbf2f2;
+	padding:2% 1%;
+	text-align: center;
+}
